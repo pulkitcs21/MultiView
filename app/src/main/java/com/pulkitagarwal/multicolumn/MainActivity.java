@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String[] Products = new String[]{"Pizza", "Burger", "Pasta", "PavBhaji", "Rice","Sandwich","Chipotle"};
+    private String[] Products = new String[]{"Pizza", "Burger", "Pasta", "PavBhaji", "Rice","Sandwich","Chipotle", "Oats", "Peas", "Mango"};
     private int[] Qty = new int[]{1,2,3,4,6,7,8};
     private ArrayList<FoodModel> foodModelArrayList;
     private ListView listView;
